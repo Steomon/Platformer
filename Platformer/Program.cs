@@ -1,5 +1,6 @@
 ﻿using System;
 using Raylib_cs;
+using Platformer;
 
 namespace Platformer
 {
@@ -7,24 +8,28 @@ namespace Platformer
     {
         static void Main()
         {
+            bool closeMainMenu = false;
+            bool displayRestart = false;
+            bool pressToRestart = false;
+            bool startButtonPressed = false;
+
             int DisplayWidth = 1920;
             int DisplayHeight = 1080;
+            int level = 0;
 
             Raylib.InitWindow(DisplayWidth, DisplayHeight, "Platformer game");
             Raylib.ToggleFullscreen();
 
-            bool closeMainMenu = false;
-            bool displayRestart = false;
-            bool pressToRestart = false;
-            int level = 0;
+            mainMenu.mainMenuStartup();
 
             while (!Raylib.WindowShouldClose())
             {
                 Raylib.BeginDrawing();
 
-                Raylib.ClearBackground(Color.WHITE);
-
-                Raylib.DrawRectangle(10, 10, 100, 100, Color.ORANGE);
+                if (level == 0)
+                {
+                    mainMenu.drawMainMenu();
+                }
 
                 Raylib.EndDrawing();
             }
