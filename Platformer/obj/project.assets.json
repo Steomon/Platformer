@@ -126,11 +126,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\simon.kjellgren\\Documents\\Programmering\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj",
+      "projectUniqueName": "P:\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj",
       "projectName": "Platformer",
-      "projectPath": "C:\\Users\\simon.kjellgren\\Documents\\Programmering\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj",
+      "projectPath": "P:\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj",
       "packagesPath": "C:\\Users\\simon.kjellgren\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\simon.kjellgren\\Documents\\Programmering\\Programmering 1\\Platformer\\Platformer\\obj\\",
+      "outputPath": "P:\\Programmering 1\\Platformer\\Platformer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\simon.kjellgren\\AppData\\Roaming\\NuGet\\NuGet.Config"
