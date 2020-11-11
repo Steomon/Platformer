@@ -13,11 +13,11 @@ namespace Platformer
             bool startButtonPressed = false;
             bool loadHealthBar = false;
 
-            int DisplayWidth = 1920;
-            int DisplayHeight = 1080;
+            int displayWidth = 1920;
+            int displayHeight = 1080;
             int level = 0;
 
-            Raylib.InitWindow(DisplayWidth, DisplayHeight, "Platformer game");
+            Raylib.InitWindow(displayWidth, displayHeight, "Platformer game");
             Raylib.ToggleFullscreen();
 
             while (!Raylib.WindowShouldClose())
