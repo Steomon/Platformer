@@ -20,7 +20,7 @@ namespace Gamestates
             Texture2D mainMenuBG = Raylib.LoadTexture(@"textures\mainMenuBackground.png");
             Raylib.DrawTexture(mainMenuBG, 0, 0, Color.WHITE);
 
-            Raylib.DrawText("Platformer Game", displayWidth / 2, displayHeight / 2 - 200, 100, Color.GRAY);
+            Raylib.DrawText("Platformer Game", (displayWidth / 2) - (Raylib.MeasureText("Platformer Game", 100) / 2), displayHeight / 2 - 200, 100, Color.GRAY);
             Raylib.DrawText("Made by: Simon Kjellgren", 5, displayHeight - 50, 45, Color.GRAY);
         }
     }
