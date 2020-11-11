@@ -1,5 +1,6 @@
 ﻿using System;
 using Raylib_cs;
+using Gamestates;
 
 namespace Platformer
 {
@@ -20,13 +21,15 @@ namespace Platformer
             Raylib.InitWindow(displayWidth, displayHeight, "Platformer game");
             Raylib.ToggleFullscreen();
 
+            Menu mainMenu = new Menu(displayWidth, displayHeight);
+
             while (!Raylib.WindowShouldClose())
             {
                 Raylib.BeginDrawing();
 
                 if (level == 0)
                 {
-                    Gamestates.MainMenu.DrawMainMenu();
+                    mainMenu.Draw();
                 }
 
                 Raylib.EndDrawing();
