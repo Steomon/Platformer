@@ -21,7 +21,7 @@ namespace Platformer
             Raylib.InitWindow(displayWidth, displayHeight, "Platformer game");
             Raylib.ToggleFullscreen();
 
-            Menu mainMenu = new Menu(displayWidth, displayHeight);
+            mainMenu mainMenu = new mainMenu(displayWidth, displayHeight);
 
             while (!Raylib.WindowShouldClose())
             {
