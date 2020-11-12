@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "P:\\Programmering 1\\platformer\\Platformer\\Platformer.csproj": {}
+    "P:\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj": {}
   },
   "projects": {
-    "P:\\Programmering 1\\platformer\\Platformer\\Platformer.csproj": {
+    "P:\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "P:\\Programmering 1\\platformer\\Platformer\\Platformer.csproj",
+        "projectUniqueName": "P:\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj",
         "projectName": "Platformer",
-        "projectPath": "P:\\Programmering 1\\platformer\\Platformer\\Platformer.csproj",
+        "projectPath": "P:\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj",
         "packagesPath": "C:\\Users\\simon.kjellgren\\.nuget\\packages\\",
-        "outputPath": "P:\\Programmering 1\\platformer\\Platformer\\obj\\",
+        "outputPath": "P:\\Programmering 1\\Platformer\\Platformer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\simon.kjellgren\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -24,6 +24,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -35,6 +36,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "dependencies": {
             "Raylib-cs": {
               "target": "Package",
@@ -51,12 +53,22 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.8, 3.1.8]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.9, 3.1.9]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

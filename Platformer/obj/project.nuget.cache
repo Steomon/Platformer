@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6yN4xhjD87EW0hqYUP/SaBFx9yIkgngE6DKPH2XV9Xn4ms4QvyA4VIAOQhwM7qv7iGe256NFdVZ41/lmRza+DA==",
+  "dgSpecHash": "LvC7MrLpGMzGwADMgRDQCTH3IYlC/HXZq8Yx9N1Xk2Pl/7GFpeSGZ184uDYGnvv9F7oECMXGsQ661UDYtzmLXw==",
   "success": true,
-  "projectFilePath": "P:\\Programmering 1\\platformer\\Platformer\\Platformer.csproj",
+  "projectFilePath": "P:\\Programmering 1\\Platformer\\Platformer\\Platformer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\simon.kjellgren\\.nuget\\packages\\raylib-cs\\3.1.6\\raylib-cs.3.1.6.nupkg.sha512",
-    "C:\\Users\\simon.kjellgren\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+    "C:\\Users\\simon.kjellgren\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\simon.kjellgren\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.8\\microsoft.aspnetcore.app.ref.3.1.8.nupkg.sha512",
+    "C:\\Users\\simon.kjellgren\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.9\\microsoft.netcore.app.host.win-x64.3.1.9.nupkg.sha512"
   ],
   "logs": []
 }
