@@ -16,15 +16,16 @@ namespace Platformer
             bool startButtonPressed = false;
             bool loadHealthBar = false;
 
+
             int displayWidth = 1920;
             int displayHeight = 1080;
             int level = 0;
 
             Raylib.InitWindow(displayWidth, displayHeight, "Platformer game");
-            Raylib.SetTargetFPS(60);
+            // Raylib.SetTargetFPS(60);
             Raylib.ToggleFullscreen();
 
-            mainMenu mainMenu = new mainMenu(displayWidth, displayHeight);
+            MainMenu MainMenu = new MainMenu(displayWidth, displayHeight);
 
             while (!Raylib.WindowShouldClose())
             {
@@ -32,7 +33,7 @@ namespace Platformer
 
                 if (level == 0)
                 {
-                    mainMenu.Draw();
+                    MainMenu.Draw();
                 }
 
                 Raylib.EndDrawing();

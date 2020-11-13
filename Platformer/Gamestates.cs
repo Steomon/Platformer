@@ -6,11 +6,11 @@ using Platformer;
 
 namespace Gamestates
 {
-    public class mainMenu
+    public class MainMenu
     {
         public int displayWidth;
         public int displayHeight;
-        public mainMenu(int displayWidth, int displayHeight)
+        public MainMenu(int displayWidth, int displayHeight)
         {
             this.displayWidth = displayWidth;
             this.displayHeight = displayHeight;
@@ -18,8 +18,8 @@ namespace Gamestates
         Color lightGray = new Color(200, 200, 200, 255);
         Color darkGray = new Color(150, 150, 150, 255);
         Texture2D mainMenuBG = Raylib.LoadTexture(@"textures\mainMenuBackground.png");
-        Image cursorHand = Raylib.LoadImage(@"textures\mouse_hand_icon.png");
-
+        static Image cursorHand = Raylib.LoadImage(@"textures\mouse_hand_icon.png");
+        Texture2D cursorHandTexture = Raylib.LoadTextureFromImage(cursorHand);
         public void Draw()
         {
             Raylib.DrawTexture(mainMenuBG, 0, 0, Color.WHITE);
@@ -45,12 +45,18 @@ namespace Gamestates
             && (Raylib.GetMouseY() > displayHeight / 2 - 10)
             && (Raylib.GetMouseY() < displayHeight / 2 + 160))
             {
-                //WIP
                 Raylib.HideCursor();
-                Raylib.ImageResize(ref cursorHand, 20, 20);
-                Texture2D cursorHandTexture = Raylib.LoadTextureFromImage(cursorHand);
-                Raylib.DrawTexture(cursorHandTexture, Raylib.GetMouseX() - 2, Raylib.GetMouseY(), Color.WHITE);
-                //WIP
+                Raylib.DrawTexture(cursorHandTexture, Raylib.GetMouseX() - 7, Raylib.GetMouseY(), Color.WHITE);
+                if (Raylib.IsMouseButtonDown(MouseButton.MOUSE_LEFT_BUTTON))
+                {
+                    Raylib.DrawRectangle(displayWidth / 2 - 200, displayHeight / 2, 400, 160, Color.WHITE);
+                    Raylib.DrawRectangle(displayWidth / 2 - 210, displayHeight / 2 - 10, 400, 160, darkGray);
+                    Raylib.DrawRectangle(displayWidth / 2 - 200, displayHeight / 2, 390, 150, lightGray);
+
+                    Raylib.DrawText("Play", (displayWidth / 2) - (Raylib.MeasureText("Play", 100) / 2) + 5, displayHeight / 2 + 27, 100, darkGray);
+                    Raylib.DrawText("Play", (displayWidth / 2) - (Raylib.MeasureText("Play", 100) / 2), displayHeight / 2 + 22, 100, Color.WHITE);
+
+                }
             }
             else
             {
