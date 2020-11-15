@@ -1,7 +1,6 @@
 using System;
 using System.Numerics;
 using Raylib_cs;
-using System.Windows.Input;
 using Platformer;
 
 namespace Gamestates
@@ -56,6 +55,10 @@ namespace Gamestates
                     Raylib.DrawText("Play", (displayWidth / 2) - (Raylib.MeasureText("Play", 100) / 2) + 5, displayHeight / 2 + 27, 100, darkGray);
                     Raylib.DrawText("Play", (displayWidth / 2) - (Raylib.MeasureText("Play", 100) / 2), displayHeight / 2 + 22, 100, Color.WHITE);
 
+                }
+                else if (Raylib.IsMouseButtonReleased(MouseButton.MOUSE_LEFT_BUTTON)){
+                    Platformer.Program.level = 1;
+                    Raylib.ShowCursor();
                 }
             }
             else

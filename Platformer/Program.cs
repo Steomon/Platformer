@@ -1,13 +1,13 @@
 ﻿using System;
 using System.Numerics;
 using Raylib_cs;
-using System.Windows.Input;
 using Gamestates;
 
 namespace Platformer
 {
     public class Program
     {
+        public static int level = 0;
         public static void Main()
         {
             bool closeMainMenu = false;
@@ -19,7 +19,7 @@ namespace Platformer
 
             int displayWidth = 1920;
             int displayHeight = 1080;
-            int level = 0;
+
 
             Raylib.InitWindow(displayWidth, displayHeight, "Platformer game");
             Raylib.SetTargetFPS(60);
@@ -34,6 +34,10 @@ namespace Platformer
                 if (level == 0)
                 {
                     MainMenu.Draw();
+                }
+                else if (level == 1)
+                {
+                    
                 }
 
                 Raylib.EndDrawing();

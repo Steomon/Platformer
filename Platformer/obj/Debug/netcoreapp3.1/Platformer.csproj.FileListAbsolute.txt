@@ -34,3 +34,21 @@ P:\Programmering 1\Platformer\Platformer\bin\Debug\netcoreapp3.1\runtimes\osx-x6
 P:\Programmering 1\Platformer\Platformer\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\raylib.dll
 P:\Programmering 1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.csproj.CopyComplete
 P:\Programmering 1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.genruntimeconfig.cache
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\Platformer.exe
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\Platformer.deps.json
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\Platformer.runtimeconfig.json
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\Platformer.runtimeconfig.dev.json
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\Platformer.dll
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\Platformer.pdb
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\Raylib-cs.dll
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\runtimes\linux-x64\native\libraylib.so
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\runtimes\osx-x64\native\libraylib.dylib
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\raylib.dll
+D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.csprojAssemblyReference.cache
+D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.AssemblyInfoInputs.cache
+D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.AssemblyInfo.cs
+D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.csproj.CoreCompileInputs.cache
+D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.csproj.CopyComplete
+D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.dll
+D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.pdb
+D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.genruntimeconfig.cache
