@@ -10,13 +10,6 @@ namespace Platformer
         public static int level = 0;
         public static void Main()
         {
-            bool closeMainMenu = false;
-            bool displayRestart = false;
-            bool pressToRestart = false;
-            bool startButtonPressed = false;
-            bool loadHealthBar = false;
-
-
             int displayWidth = 1920;
             int displayHeight = 1080;
 
@@ -25,6 +18,7 @@ namespace Platformer
             Raylib.SetTargetFPS(60);
             Raylib.ToggleFullscreen();
 
+            //Detta fick jag hjälp med av en klasskompis
             MainMenu MainMenu = new MainMenu(displayWidth, displayHeight);
 
             while (!Raylib.WindowShouldClose())
@@ -37,7 +31,7 @@ namespace Platformer
                 }
                 else if (level == 1)
                 {
-                    
+
                 }
 
                 Raylib.EndDrawing();

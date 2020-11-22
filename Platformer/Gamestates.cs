@@ -2,6 +2,7 @@ using System;
 using System.Numerics;
 using Raylib_cs;
 using Platformer;
+using Objects;
 
 namespace Gamestates
 {
@@ -10,7 +11,7 @@ namespace Gamestates
         public int displayWidth;
         public int displayHeight;
         public MainMenu(int displayWidth, int displayHeight)
-        {
+        { // Hela den här funktionen fick jag hjälp med av en klasskompis
             this.displayWidth = displayWidth;
             this.displayHeight = displayHeight;
         }
@@ -56,9 +57,11 @@ namespace Gamestates
                     Raylib.DrawText("Play", (displayWidth / 2) - (Raylib.MeasureText("Play", 100) / 2), displayHeight / 2 + 22, 100, Color.WHITE);
 
                 }
-                else if (Raylib.IsMouseButtonReleased(MouseButton.MOUSE_LEFT_BUTTON)){
+                else if (Raylib.IsMouseButtonReleased(MouseButton.MOUSE_LEFT_BUTTON))
+                {
                     Platformer.Program.level = 1;
                     Raylib.ShowCursor();
+                    Objects.Player.goToStart = true;
                 }
             }
             else
