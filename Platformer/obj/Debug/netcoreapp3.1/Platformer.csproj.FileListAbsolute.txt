@@ -52,3 +52,5 @@ D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Plat
 D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.dll
 D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.pdb
 D:\Programming\Programmering1\Platformer\Platformer\obj\Debug\netcoreapp3.1\Platformer.genruntimeconfig.cache
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\runtimes\linux-x86\native\libraylib.so
+D:\Programming\Programmering1\Platformer\Platformer\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\raylib.dll

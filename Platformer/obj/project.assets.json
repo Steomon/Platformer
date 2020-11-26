@@ -1,8 +1,8 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Raylib-cs/3.1.6": {
+    "net5.0": {
+      "Raylib-cs/3.1.5": {
         "type": "package",
         "dependencies": {
           "System.Numerics.Vectors": "4.5.0"
@@ -25,6 +25,10 @@
             "assetType": "native",
             "rid": "linux-x64"
           },
+          "runtimes/linux-x86/native/libraylib.so": {
+            "assetType": "native",
+            "rid": "linux-x86"
+          },
           "runtimes/osx-x64/native/libraylib.dylib": {
             "assetType": "native",
             "rid": "osx-x64"
@@ -32,6 +36,10 @@
           "runtimes/win-x64/native/raylib.dll": {
             "assetType": "native",
             "rid": "win-x64"
+          },
+          "runtimes/win-x86/native/raylib.dll": {
+            "assetType": "native",
+            "rid": "win-x86"
           }
         }
       },
@@ -47,10 +55,10 @@
     }
   },
   "libraries": {
-    "Raylib-cs/3.1.6": {
-      "sha512": "seEYS9XGOmNHM4Gae4/mxrVWvLcIdnUqB47ITpa1V4L/y7gRN/bfm5mEyr19inNV4UK+H+qU9chWPC4qnikgqw==",
+    "Raylib-cs/3.1.5": {
+      "sha512": "rzv7rmxb+p/D9/ojlMsg5EZdBki/DO6lOQsVlDqTtACvyDZ3MqgaKZl9gGKJJOIl9G/zkoegDdE+IrrHM7i/IQ==",
       "type": "package",
-      "path": "raylib-cs/3.1.6",
+      "path": "raylib-cs/3.1.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -59,12 +67,14 @@
         "contentFiles/any/netstandard2.1/Raylib-cs.targets",
         "lib/netstandard2.0/Raylib-cs.dll",
         "lib/netstandard2.1/Raylib-cs.dll",
-        "raylib-cs.3.1.6.nupkg.sha512",
+        "raylib-cs.3.1.5.nupkg.sha512",
         "raylib-cs.nuspec",
         "raylib-cs_64x64.png",
         "runtimes/linux-x64/native/libraylib.so",
+        "runtimes/linux-x86/native/libraylib.so",
         "runtimes/osx-x64/native/libraylib.dylib",
-        "runtimes/win-x64/native/raylib.dll"
+        "runtimes/win-x64/native/raylib.dll",
+        "runtimes/win-x86/native/raylib.dll"
       ]
     },
     "System.Numerics.Vectors/4.5.0": {
@@ -116,12 +126,13 @@
     }
   },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Raylib-cs >= 3.1.6"
+    "net5.0": [
+      "Raylib-cs >= 3.1.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\simon.kjellgren\\.nuget\\packages\\": {}
+    "C:\\Users\\kjell\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
@@ -129,21 +140,24 @@
       "projectUniqueName": "D:\\Programming\\Programmering1\\Platformer\\Platformer\\Platformer.csproj",
       "projectName": "Platformer",
       "projectPath": "D:\\Programming\\Programmering1\\Platformer\\Platformer\\Platformer.csproj",
-      "packagesPath": "C:\\Users\\simon.kjellgren\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\kjell\\.nuget\\packages\\",
       "outputPath": "D:\\Programming\\Programmering1\\Platformer\\Platformer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\simon.kjellgren\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\kjell\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
-        "netcoreapp3.1"
+        "net5.0"
       ],
       "sources": {
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "projectReferences": {}
         }
       },
@@ -154,12 +168,12 @@
       }
     },
     "frameworks": {
-      "netcoreapp3.1": {
-        "targetAlias": "netcoreapp3.1",
+      "net5.0": {
+        "targetAlias": "net5.0",
         "dependencies": {
           "Raylib-cs": {
             "target": "Package",
-            "version": "[3.1.6, )"
+            "version": "[3.1.5, )"
           }
         },
         "imports": [
@@ -172,16 +186,6 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "downloadDependencies": [
-          {
-            "name": "Microsoft.AspNetCore.App.Ref",
-            "version": "[3.1.8, 3.1.8]"
-          },
-          {
-            "name": "Microsoft.NETCore.App.Host.win-x64",
-            "version": "[3.1.9, 3.1.9]"
-          }
-        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
