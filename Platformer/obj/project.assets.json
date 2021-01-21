@@ -131,23 +131,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kjell\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\simon.kjellgren\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\Programmering1\\Platformer\\Platformer\\Platformer.csproj",
+      "projectUniqueName": "d:\\Programming\\Programmering1\\Platformer\\Platformer\\Platformer.csproj",
       "projectName": "Platformer",
-      "projectPath": "D:\\Programming\\Programmering1\\Platformer\\Platformer\\Platformer.csproj",
-      "packagesPath": "C:\\Users\\kjell\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\Programmering1\\Platformer\\Platformer\\obj\\",
+      "projectPath": "d:\\Programming\\Programmering1\\Platformer\\Platformer\\Platformer.csproj",
+      "packagesPath": "C:\\Users\\simon.kjellgren\\.nuget\\packages\\",
+      "outputPath": "d:\\Programming\\Programmering1\\Platformer\\Platformer\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\kjell\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\simon.kjellgren\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net5.0"

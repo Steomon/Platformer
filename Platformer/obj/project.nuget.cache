@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BExvLd0Vo6og5AYWPz04Rvc+5TDrJfDVeeEi/QBymESL5HWWeA6mi6g0z4yYdHCVPMQv3jNAhqNoBf/E8KaGEQ==",
+  "dgSpecHash": "IcO4B2XCc9+vdrBo8HR1wqPrY6EdVTa1DJcHHQLw1bqHRhbO/esGZoSQMAUNChIuDXLlbMHLsR8i+VXbugV2DQ==",
   "success": true,
   "projectFilePath": "D:\\Programming\\Programmering1\\Platformer\\Platformer\\Platformer.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\kjell\\.nuget\\packages\\raylib-cs\\3.1.5\\raylib-cs.3.1.5.nupkg.sha512",
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
+    "C:\\Users\\simon.kjellgren\\.nuget\\packages\\raylib-cs\\3.1.5\\raylib-cs.3.1.5.nupkg.sha512",
+    "C:\\Users\\simon.kjellgren\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512"
   ],
   "logs": []
 }

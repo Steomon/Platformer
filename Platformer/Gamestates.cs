@@ -6,12 +6,12 @@ using Objects;
 
 namespace Gamestates
 {
-    public class MainMenu
+    public class Levels
     {
         public int displayWidth;
         public int displayHeight;
-        public MainMenu(int displayWidth, int displayHeight)
-        { // Hela den här funktionen fick jag hjälp med av en klasskompis
+        public Levels(int displayWidth, int displayHeight)   //Fick hjälp med den här, men jag modifierade den även efter det
+        {                                                     
             this.displayWidth = displayWidth;
             this.displayHeight = displayHeight;
         }
@@ -20,7 +20,7 @@ namespace Gamestates
         Texture2D mainMenuBG = Raylib.LoadTexture(@"textures\mainMenuBackground.png");
         static Image cursorHand = Raylib.LoadImage(@"textures\mouse_hand_icon.png");
         Texture2D cursorHandTexture = Raylib.LoadTextureFromImage(cursorHand);
-        public void Draw()
+        public void DrawMainMenu()
         {
             Raylib.DrawTexture(mainMenuBG, 0, 0, Color.WHITE);
 
